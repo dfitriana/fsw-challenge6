@@ -1,10 +1,13 @@
-/**
- * @file contains entry point of controllers api v1 module
- * @author Fikri Rahmat Nurhidayat
- */
-
-const authorController = require("./authorController");
+const authController = require("./authController");
+const superAdminController = require("./superAdminController");
+const adminController = require("./adminController");
+const memberController = require("./memberController");
+const carController = require("./carController");
 
 module.exports = {
-  authorController,
+  adminController,
+  authController,
+  superAdminController,
+  memberController,
+  carController
 };
